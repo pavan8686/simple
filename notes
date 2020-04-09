@@ -1,0 +1,8 @@
+1) What is GIT?
+GIT is a distributed version control system and source code management (SCM) system with an emphasis to handle small and large projects with speed and efficiency.
+
+2) What is a repository in GIT?
+A repository contains a directory named .git, where git keeps all of its metadata for the repository. The content of the .git directory are private to git.
+
+3) What is the command you can use to write a commit message?
+The command that is used to write a commit message is “git commit –a”. The –a on the command line instructs git to commit the new content of all tracked files that have been modified. You can use “git add<file>” before git commit –a if new files need to be committed for the first time.
